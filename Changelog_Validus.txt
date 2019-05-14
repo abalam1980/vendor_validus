@@ -1,190 +1,423 @@
 ====================
-     03-04-2019
+     05-14-2019
 ====================
 
 
    * frameworks/base/
-2d9295f70fa  Powermenu: Allow emergency dialer button to be themed with accent color  [martinusbe]
-dd22c0adc1b  Emergency dial fix for Marty :D  [martinusbe]
-2eda98e931e  Fix action bar font family on material themes  [martinusbe]
-5fe85711f31  UiModeManagerService: Store messaging night state on Settings class  [martinusbe]
-b949b370a74  Themes: Lock day night mode  [martinusbe]
-57b59ab67e5  Themes: Fix animation issue when opening Messaging app  [martinusbe]
-e55f0e78aaa  Themes: Workaround to fix dark theme on Messaging app  [martinusbe]
-9bfc65f0f51  Migrate SystemUI Tuner to WolvesDen  [martinusbe]
-eb2dc9ef517  base: Add a toggle for Emergency dialing in power menu (1/2)  [martinusbe]
-4949a15f0c5  BrightnessDialog: dismiss on focus lost  [martinusbe]
-589bf9c1fe5  GlobalActions: avoid multiple power dialog animations  [martinusbe]
-a395096f400  VolumeDialog: avoid multiple animations on touch spam  [martinusbe]
-0fce7e7dc0b  ActionUtils: Improve ringer modes  [martinusbe]
-4cb31920100  ActionUtils: Ringer modes  [martinusbe]
-0eba2bce538  ActionUtils: cleanup screen On action code  [martinusbe]
-8a8f6c7cc2a  ActionUtils: Add screen on action  [martinusbe]
-fd3a9a640dd  base: Add support for the .opus file format  [martinusbe]
-36ad2c48af7  {CRAP} fix for OP ims.apk  [martinusbe]
-d74f3102a2f  Fix showing empty signal strength for TD-SCDMA  [martinusbe]
-4d6673c8dfa  FontService: Disable logspam  [martinusbe]
-db66a11b61d  base: FontService: Add a error for non-supported font packages  [martinusbe]
-eb6dfb73822  Forward port Screen Security settings (1/2)  [Alx31]
-   * manifest/
-afcbf7e  validus: track vold test  [martinusbe]
+4bd6674f25b  base: Return of Smart Pulldown [1/2]  [alliancesparx]
+   * packages/apps/Settings/
+ebc8ae2b40  strings: WolvesDen < Wolves' Den, for the grammar police  [martinusbe]
    * packages/apps/WolvesDen/
-c264eac2  Powermenu: Use SecureSettingSwitch for emergency dialer  [alliancesparx]
+d3ae1d1b  Return of Smart Pulldown [1/2]  [alliancesparx]
    * vendor/validus/
-d42597e  bump to 4.0  [Alx31]
-bebabb6  envsetup: Add new eat command  [Alx31]
-3cd9641  fonts: Add Audiowide for ZeroKool  [Alx31]
-a6371ae  Phonograph returns  [Alx31]
-b2558a2  devices: fajita  [Alx31]
-5882c75  changelog: generate.  [Alx31]
-2b9b033  vendor_validus: add omnijaws permissions  [Alx31]
-a83a8d0  vendor_validus:add    *s list  [Alx31]
-fec3cf2  changelog_validus: more info and bling  [Alx31]
-c1f1f0d  script: generate changelog for last 15days  [Alx31]
-dff2671  common.mk: build omnijaws plz  [Alx31]
+09df43c2  vendor: 5.1: welcome all the nothces and more stuffses  [hardwareadictos]
+2f8f1280  vendor: elgoog: when are they gonna learn  [martinusbe]
+fd146843  vendor: Update permissions  [martinusbe]
+3737d925  Kang privapp-permissions-elgoog.xml from mTresk and OmniROM  [martinusbe]
 ====================
-     03-03-2019
+     05-13-2019
 ====================
 
 
+   * frameworks/base/
+6b6730021a3  extended audio panel [1/2]  [alliancesparx]
+80e64c13a97  Fix unlinked ringtone and notification volumes panels  [alliancesparx]
+05af7c925ec  base: Add unlinked ringtone and notification volumes  [alliancesparx]
    * packages/apps/Settings/
-5e5b897566  Merge branch 'test' of https://github.com/ValidusOs/packages_apps_Settings into HEAD  [martinusbe]
-b2367bf834  Battery temp: Use MCC to determine the scale type  [martinusbe]
-1da19f1b47  Battery temp: Ensure preference is updated  [martinusbe]
-84787f0c37  Battery stats: Display battery temperature  [martinusbe]
-030ccaf408  Open advanced power usage summary on header click of battery  [martinusbe]
-====================
-     03-02-2019
-====================
-
-
-   * packages/apps/Settings/
-5bfa52fbe0  Fix display settings fc Caused by removing font preference - my bad  [alliancesparx]
-67875d911b  Themes: Remove preference - fix my derp  [alliancesparx]
+58a76438e9  Settings: Add switch for linked ring and media notification volumes  [alliancesparx]
    * packages/apps/WolvesDen/
-b4190444  wolvesden: Add a toggle for Emergency dialing in power menu (2/2)  [martinusbe]
+2a9c42f3  extended audio panel [2/2]  [alliancesparx]
 ====================
-     03-01-2019
-====================
-
-
-   * hardware/qcom/keymaster/
-f461ab8  keymaster: Use generated kernel headers  [martinusbe]
-   * packages/apps/WolvesDen/
-185afcf5  Migrate SystemUI Tuner to WolvesDen  [alliancesparx]
-====================
-     02-28-2019
+     05-12-2019
 ====================
 
 
    * build/make/
-f44a90019  core: Pass HW FDE flags to soong  [martinusbe]
+55119ff94  When compiling, use release-keys tag not dev-keys  [martinusbe]
+89bb90ed3  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/build into HEAD  [Alx31]
+   * frameworks/av/
+38a06a2bf  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/av into HEAD  [Alx31]
+   * frameworks/base/
+cbd963695f1  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/base into HEAD  [Alx31]
+8d4244d034a  Volume Rocker Wake [1/2]  [alliancesparx]
+   * frameworks/native/
+cd572df4a  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/native into HEAD  [Alx31]
    * hardware/interfaces/
-f4ff5fff  keymasterV4_0: Tags support for FBE wrapped key.  [martinusbe]
+36dffa1e  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/hardware/interfaces into HEAD  [Alx31]
+   * manifest/
+9980a08  track system/core test for....tests.  [Alx31]
+36fb935  manifest: android-9.0.0_r37  [Alx31]
    * packages/apps/Settings/
-c811e6b9ad  Themes: Remove preference It's moved to WolvesDen  [alliancesparx]
-e18df0c1d0  Fonts: Disable preference It's moved to WolvesDen  [alliancesparx]
-243e21e16f  Forward port pattern visibility settings (2/2)  [martinusbe]
-====================
-     02-27-2019
-====================
-
-
-   * hardware/gzosp/interfaces/
-be4d744  aw2013: lets not crash service on missing LED  [martin coulon]
-7835816  light: aw2013: Mark as shutdown critical  [martin coulon]
-   * packages/apps/Settings/
-8c41843cee  Settings: forward port lock pattern grid size (2/2)  [martinusbe]
-====================
-     02-26-2019
-====================
-
-
-   * frameworks/base/
-78086c96b35  DefaultPermissionGrantPolicy: grant Google sounds picker storage perms  [martinusbe]
-1e4d12721f5  SystemUpdateService: enable service but lock its receivers  [martinusbe]
-3edd3026df7  PackageManager: allow build-time disabling of components  [martinusbe]
-   * packages/services/OmniJaws/
-a9ba04d  Weather: Set OWM as default provider  [alliancesparx]
-====================
-     02-25-2019
-====================
-
-
-   * frameworks/base/
-12c68f8e293  Reload more assets on overlay change  [martinusbe]
+aedbd5fa03  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [Alx31]
    * packages/apps/WolvesDen/
-5994d15b  WolvesDen: Overhaul pt2 Remove unused tabs Add styles tab Move device theme and foonts from settings to Style  [alliancesparx]
-dafded58  Theme tab indicator with accent color  [alliancesparx]
-====================
-     02-24-2019
-====================
-
-
-====================
-     02-23-2019
-====================
-
-
-====================
-     02-22-2019
-====================
-
-
-   * frameworks/base/
-71cac4fa822  fonts: Build different fonts.xml if EXCLUDE_SERIF_FONTS is true  [martinusbe]
-24ad7e42079  Camera: Force HAL1 for predefined package list.  [martinusbe]
-eb3f5029d7f  Informing app idle listeners on enabled state changes.  [martinusbe]
-ce1ae1997f4  Fix for CTS testAllowWhileIdleJobInTempwhitelist  [martinusbe]
-cbe10a98138  Null locale causing the VTS fail.  [martinusbe]
+42d52d5b  Volume Rocker Wake [2/2]  [alliancesparx]
    * packages/services/Telephony/
-687d2e963  set config_enabled_lte to true by default  [martinusbe]
+cc4a32bd6  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD  [Alx31]
+   * system/core/
+70a451407  core: BFG repo cleanup details for records  [Alx31]
+d2365357f  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/core into HEAD  [Alx31]
+   * system/sepolicy/
+18eb513d  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/sepolicy into HEAD  [Alx31]
 ====================
-     02-21-2019
+     05-11-2019
 ====================
 
 
    * frameworks/base/
-2d9740d7b70  Add Music QS Tile  [alliancesparx]
+7a0c2e94873  Notification Led Customization  [alliancesparx]
+6873bd9e0b6  Fix theme cannot change due to there is no wallpaper colors.  [martinusbe]
+46857b43084  Revert "WallpaperManagerService: Fix theme switching"  [martinusbe]
+3779df12ec0  base: SystemUI: fix lock screen wallpaper usage  [martinusbe]
+e29cc161033  Nullify the default wallpaper component if it does not exist  [martinusbe]
+f7d06285682  Workaround for wallpaper not shown correctly problem  [martinusbe]
+8b804a99cda  SystemUI: Dismiss keyguard on boot if disabled by current profile  [martinusbe]
    * manifest/
-7f493ca  Manifest: Track Phonograph  [alliancesparx]
-====================
-     02-20-2019
-====================
-
-
-   * frameworks/base/
-c3105f6046e  Extend reboot tile to add power off  [alliancesparx]
-9364f78b218  RebootTile: Fix gradient message display for reboot to recovery  [alliancesparx]
-f1d42d4b724  Add Reboot/Recovery QS Tile  [alliancesparx]
-67bbe4cfbc6  Status bar clock/date customizations [1/2]  [alliancesparx]
+5148f08  validus: track mediaprovider  [martinusbe]
+   * packages/apps/Settings/
+0c6e10c04b  Settings: Allow to customize notification led light  [alliancesparx]
    * packages/apps/WolvesDen/
-e6860e89  Status bar clock/date customizations [2/2]  [alliancesparx]
+1e8886de  Battery light colors: show reset to default button  [alliancesparx]
+   * packages/providers/MediaProvider/
+e867cd5  MediaProvider: Add read storage permission  [martinusbe]
+ca0f5bc  Fix mounting of non-FAT formatted SD cards (2/2)  [martinusbe]
+e4399bc  MediaProvider: adaptive icon  [martinusbe]
 ====================
-     02-19-2019
+     05-10-2019
 ====================
 
 
-   * manifest/
-72ddfd8  manifest: android-9.0.0_r31  [alliancesparx]
+   * bootable/recovery/
+a7132ed7  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/bootable/recovery into HEAD  [Prema Chand Alugu]
+   * device/gzosp/sepolicy/
+024d474  Merge pull request #2 from GZOSP/9.0  [GitHub]
+   * frameworks/base/
+e2b8ff3006c  Fix mounting of non-FAT formatted SD cards (1/2)  [martinusbe]
+913f65bb4ba  Revert "services: allow to force "never" mode for display cutout [1/2]"  [martinusbe]
+70928bda9d4  Battery light customization [1/2]  [alliancesparx]
+614be8a0db9  base: fix mediascanner access permissions to external storage  [martinusbe]
+   * frameworks/opt/net/wifi/
+14e8a89ac  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into HEAD  [Prema Chand Alugu]
+   * frameworks/opt/telephony/
+a6d8eefc7  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [Prema Chand Alugu]
+   * hardware/broadcom/wlan/
+fb5de2c  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/hardware/broadcom/wlan into HEAD  [Prema Chand Alugu]
+   * hardware/nxp/nfc/
+abd5383  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/hardware/nxp/nfc into HEAD  [Prema Chand Alugu]
+   * hardware/qcom/audio/default/
+e393ebb1  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/hardware/qcom/audio into HEAD  [Prema Chand Alugu]
+   * packages/apps/Bluetooth/
+50e0725d  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Bluetooth into HEAD  [Prema Chand Alugu]
+   * packages/apps/CarrierConfig/
+de8d557  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD  [Prema Chand Alugu]
+   * packages/apps/Nfc/
+f2ab7097  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Nfc into HEAD  [Prema Chand Alugu]
+   * packages/apps/Settings/
+e898212dc7  display: hide color mode  [martinusbe]
+   * packages/apps/WolvesDen/
+aa7200f7  Revert "wolvesden: allow to force "never" mode for display cutout [2/2]"  [martinusbe]
+f85a4157  Battery light customization [2/2]  [alliancesparx]
+   * packages/inputmethods/LatinIME/
+7ae32794a  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD  [Prema Chand Alugu]
+   * packages/services/BuiltInPrintService/
+592b5ef  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/BuiltInPrintService into HEAD  [Prema Chand Alugu]
+   * packages/services/Telecomm/
+e4918974  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD  [Prema Chand Alugu]
+   * system/bt/
+2457bc42d  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/bt into HEAD  [Prema Chand Alugu]
+   * system/netd/
+ad2e5fb  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/netd into HEAD  [Prema Chand Alugu]
+   * system/sepolicy/
+29dfac27  Merge pull request #4 from GZOSP/9.0  [GitHub]
 ====================
-     02-18-2019
+     05-09-2019
+====================
+
+
+   * frameworks/base/
+1a3afc33836  fwb: overlays: Install cutout overlays to system  [martinusbe]
+33d083121fb  base: notch-city: Add 3 mode display cutout handler [1/3]  [martinusbe]
+   * packages/apps/Settings/
+8be9de1186  notch-city: Add 3 mode display cutout handler [3/3]  [martinusbe]
+   * vendor/validus/
+e8df57ba  vendor: notch-city: Add 3 mode display cutout handler [2/3]  [martinusbe]
+====================
+     05-08-2019
+====================
+
+
+   * frameworks/base/
+63b01345b4f  Fix motion event offset of DecorView is moved in the window  [martinusbe]
+d12dce90827  services: allow to force "never" mode for display cutout [1/2]  [martinusbe]
+   * packages/apps/WolvesDen/
+d004c506  wolvesden: allow to force "never" mode for display cutout [2/2]  [martinusbe]
+====================
+     05-07-2019
+====================
+
+
+   * frameworks/base/
+24e7b8dca67  Disable Lockscreen Media Art [1/2]  [alliancesparx]
+5574960a870  Carrier Label: Fix not showing on clean install without restarting ui  [alliancesparx]
+f38219d92d0  Screen off to skip track: Add Spotify/KDEConn/etc. remote session compatibility  [alliancesparx]
+588ac811d0f  Fix volume rocker skip track on Ambient Display and Lift to Wake  [alliancesparx]
+f02171fa193  Fix double volume events on screen off  [alliancesparx]
+627c9304b52  [1/2] base: Volume key music control  [alliancesparx]
+43c68e88e62  Carrier label: Make sure it survives a reboot using notch settings  [alliancesparx]
+65cfd2b375c  Carrier Label: Bring back the scroll (marquee) effect  [alliancesparx]
+f6cea9a1b2d  Notch friendly carrier label [1/2]  [alliancesparx]
+c9564cfc006  Hide carrier label properly  [alliancesparx]
+   * packages/apps/WolvesDen/
+9ee6c33e  Disable Lockscreen Media Art [2/2]  [alliancesparx]
+e80a7447  [2/2] WolvesDen: Volume key music control  [alliancesparx]
+b3ffd822  Carrier label: Remove the possibly of adding emojis  [alliancesparx]
+f9e9ad62  Carrier label: Ensure the dialog matches other dialogs  [alliancesparx]
+8906fb00  Disable custom carrier label preference if carrier label is off  [alliancesparx]
+b1876855  Notch friendly carrier label [2/2]  [alliancesparx]
+7e40639b  Set a text length on the carrier label  [alliancesparx]
+18064df7  Add a footer warning for the carrier label  [alliancesparx]
+b826e1e8  Keyguard/Statusbar Carrier label options  [alliancesparx]
+faa38688  Fix empty carrier label options on msim devices  [alliancesparx]
+460ba930  Show carrier label / custom label [2/2]  [alliancesparx]
+====================
+     05-06-2019
 ====================
 
 
    * build/make/
-e31c88ee2  envi: changelog generation added  [alliancesparx]
+6a10cf752  build: Allow build-image-kernel-modules to be called from shell  [martinusbe]
+   * frameworks/base/
+16a880abb29  Make carrier label's visibility gone  [alliancesparx]
+72ed9569621  Keyguard/Statusbar Carrier label options  [alliancesparx]
+a112adcebef  Adapt carrier label to DarkController  [alliancesparx]
+127c918d2c6  Show carrier label / custom label [1/2]  [alliancesparx]
+a383ca0dadc  Statusbar: Handle Logo settings separate from generic  [alliancesparx]
    * packages/apps/Settings/
-3ff938aa2b  ChangeLog: hotlink to CL generated in vendor  [alliancesparx]
-5c977ed1bb  Manifest: Update path to OmniJawsSettings  [alliancesparx]
-f4d715bfa9  [1/2] Settings: change dimen to removed left padding  [alliancesparx]
-791fe67fa4  [2/2] Settings: allow to remove forced start margin  [alliancesparx]
-9d1fae8383  swipe up: disable full gesture for now  [alliancesparx]
-f22741ee17  fix derps  [alliancesparx]
-e0ab3e4e8b  fix typos  [alliancesparx]
-151a4b6761  Settings: export OmniJaws settings activity  [alliancesparx]
-86654daf3d  [3/3] Settings: keyguard weather view  [alliancesparx]
-a4a12c366c  [3/3] Settings: add back weather parts  [alliancesparx]
+741d40931b  Implement Aggressive Battery [2/2]  [martinusbe]
+   * vendor/validus/
+ae299023  kernel: Add more threads to kernel build process  [martinusbe]
+756cf225  kernel: Fix modules path generated in modules.dep  [martinusbe]
+463c5578  kernel: Use build-image-kernel-modules instead of copying it  [martinusbe]
+aee7758c  kernel: Use a macro for kernel build targets  [martinusbe]
+a1fbdf71  kernel: Detect kernel module usage better  [martinusbe]
+0779c6ed  kernel: Move kernel module dir cleanup/creation to module install target  [martinusbe]
+cec6c60f  kernel: Move full kernel build guard flag below all targets  [martinusbe]
+9e7caa7f  kernel.mk: Support kernels that use LTO  [martinusbe]
+====================
+     05-05-2019
+====================
+
+
+====================
+     05-04-2019
+====================
+
+
+   * manifest/
+3bb955e  validus: track vendor interfaces from gzosp  [martinusbe]
+====================
+     05-03-2019
+====================
+
+
+   * packages/apps/WolvesDen/
+d14a7e58  wolvesden: Smart Pixels [2/2]  [martinusbe]
+====================
+     05-02-2019
+====================
+
+
+   * frameworks/base/
+5ce3ee2e336  core: Implement Aggressive Battery [1/2]  [martinusbe]
+2794aa630d4  Smart Pixels: Bypass check for obscured window  [martinusbe]
+0129cafc941  Smart Pixels: Dynamically register receiver  [martinusbe]
+c1b2397636f  Smart Pixels: Switch to registered receiver  [martinusbe]
+6fb140f196e  Smart Pixels: Move out of SystemUI  [martinusbe]
+cd10ba3f85e  SystemUI: Smart Pixels [1/2]  [martinusbe]
+30fb0e83197  SystemUI: screen-dimmer-pixel-filter  [martinusbe]
+62544fa6b04  fod: custom fingerprint icon [1/2]  [martinusbe]
+e0be9158b12  FOD: dont show FP icons if FOD is in use  [martinusbe]
+f38b86130fa  fod: prevent reapplying modes if theres no changes  [martinusbe]
+4ec548d2e42  fod: differentiate dreaming and pulse  [martinusbe]
+4b834a75872  fod: Initial support for OnePlus in-display fingerprint sensor  [martinusbe]
+115763a6008  AppOpsManager: Fix wrong coarse location permission issue  [hardwareadictos]
+9c7b484760f  AppOps: Do not prune apps that are not present  [hardwareadictos]
+e799fda72be  AppOps: Enable MODE_IGNORED for OP_WAKE_LOCK  [hardwareadictos]
+571a356713c  AppOps: Add BOOT_COMPLETED operation  [hardwareadictos]
+d7df424c257  [SQUASHED] Add Dual Channel into Bluetooth Audio Channel Mode developer options menu Add CHANNEL_MODE_DUAL_CHANNEL constant Allow SBC as HD audio codec in Bluetooth device configuration  [Nick van Bokhorst]
+ad2d46c9d2a  Fix NullPointerException in CaptivePortalLogin  [Nick van Bokhorst]
+54b9b06e1a2  Revert "Fix NullPointerException in CaptivePortalLogin"  [Nick van Bokhorst]
+d8ef9ace60d  Fix a bug where + before % is ignored  [Nick van Bokhorst]
+30c99963119  The surface hang up when screen on and screen off  [Nick van Bokhorst]
+5349d264ea9  SystemUI: Fix Data Usage tile to match Settings  [Nick van Bokhorst]
+494ce0c8a2a  Fix to hide phone number printed in the log  [Nick van Bokhorst]
+f506e696cd6  core: view: Add property to disable VSync for CPU rendered apps  [Nick van Bokhorst]
+575dd1fa4dd  add VSYNC scheduled flag and avoid two doFrame calls in one period  [Nick van Bokhorst]
+f1b27549d5a  Revert "ViewRoot: Ensure we release surface from setWindowStopped"  [Nick van Bokhorst]
+cf0145f845d  Telephony: Add DisconnectCause values for clear code  [Nick van Bokhorst]
+7636d8753b0  Clear all lingering notifications when network is disconnected  [Nick van Bokhorst]
+701c80a5643  Add synchronization for invokeForAllObservers call  [Nick van Bokhorst]
+086e49606ed  SystemUI: Fix NPE when DozeService is destroyed  [Nick van Bokhorst]
+173b667b2f0  AlarmManagerService: Add null check to QCNsrmAlarmExtension call  [Nick van Bokhorst]
+b4496906dcb  Clean receivers completely when forceStop the process  [Nick van Bokhorst]
+d8514f5af96  aapt: Speed up the style pruning  [Nick van Bokhorst]
+b8be556a46b  Fix a 'memory leak'  [Nick van Bokhorst]
+0cc1c84053a  Use proper context for prevent ringing gesture toast  [Nick van Bokhorst]
+eb78e3be7e3  Fixed NPE in RankingHelper.writeXml. Make sure that mRecords is operated with the object lock.  [Nick van Bokhorst]
+2bd8c9d32de  ViewRootImpl: break out the loop when NPE caught  [Nick van Bokhorst]
+9f73f8ff5b1  LatinIME: fix navigation bar for expanded desktop  [Nick van Bokhorst]
+f444f0cf8cc  base: Fix padding for VoLTE icon  [Nick van Bokhorst]
+df013315453  Add VOLTE icon toggle [1/2]  [Nick van Bokhorst]
+1281d7dd71b  Make roaming indicator optional [1/2]  [Nick van Bokhorst]
+80a189b3c6b  Fix VOLTE icon color on Light statusbar  [Nick van Bokhorst]
+2a25fb4c5c7  Add VOLTE icon  [Nick van Bokhorst]
+17cc491991d  Be more comprehensive about boot time RTC check  [Nick van Bokhorst]
+da5b58564f2  Prevent NFE in SystemUI when parsing invalid int (2)  [Nick van Bokhorst]
+00f0f962355  Prevent NFE in SystemUI when parsing invalid int  [Nick van Bokhorst]
+57b2d363c78  IMMS should preserve selected IME upon boot  [Nick van Bokhorst]
+3b0d1785606  Add bluetooth icon.  [Nick van Bokhorst]
+410a2c59c39  Clean up screenshot if nothing selected  [Nick van Bokhorst]
+2e33c885821  Unbreak ambient display while Heads up is disabled  [Nick van Bokhorst]
+880cbabc6ca  Fix NPE when creates wifi tracker  [Nick van Bokhorst]
+49ce9a98243  Revert "Reset wifi tethering state when failing in QS."  [Nick van Bokhorst]
+043bd48062c  Visualizer: fix native crash when visualizer release  [Nick van Bokhorst]
+33ee7e41ef3  Use fdeCheckPassword error code to indicate pw failure  [Nick van Bokhorst]
+a5e36320a3f  frameworks: base: Port password retention feature  [Nick van Bokhorst]
+e7dd63b9e56  base: Cleanup FP controller  [Nick van Bokhorst]
+1efb0f2c812  SystemUI: Fix flickering issue when live wallpaper is showing on aod/pulsing  [Nick van Bokhorst]
+174f7df61b5  BatteryMeterView: Fix logcat spam  [Nick van Bokhorst]
+c94a5b3a09b  Powermenu: Bring back airplane mode [1/2] Was broken due to using legacy layout Also tinted icons to theme with accent color  [Nick van Bokhorst]
+d4c8e558e67  Add kill button to notification guts [1/2]  [Nick van Bokhorst]
+0f4d2d65e77  Revert "Volume panel: load the bool once"  [Nick van Bokhorst]
+6361ce5eeba  Code improvements for expandable volume panel  [Nick van Bokhorst]
+0730d219a67  Include InCallNotification.ogg in AllAudio.mk file  [Nick van Bokhorst]
+a9a8bd169ee  Add ChargingStarted + InCallNotif to AudioPackage  [Nick van Bokhorst]
+181d76c9410  SystemUI: Remove unused resources  [Nick van Bokhorst]
+2c3bbceca54  Redo expanded volume panel for 9.x  [Nick van Bokhorst]
+a1e10e7f1bb  Volume panel: Fix animation  [Nick van Bokhorst]
+735b91dc027  Volume panel: load the bool once  [Nick van Bokhorst]
+a195a1bff4c  Volume panel: Do the same with less  [Nick van Bokhorst]
+3c598d3f4ac  Allow devices override audio panel location  [Nick van Bokhorst]
+151c4a062f4  SystemUI: Force Expanded Notifications [1/2]  [Nick van Bokhorst]
+bf90a643035  Double tap to sleep on statusbar [1/2]  [Nick van Bokhorst]
+90f9ad0a73f  Keyguard: Forward port lockscreen quick unlock (1/2) * PasswordTextView QuickUnlock listener functions and method thanks to ParanoidAndroid    *: Keyguard: Implement quick unlock feature [1/2] BigBrother1984 <carlosavignano@aospa.co> I0b3d92b91f72020d327a7f2f184c2fbc5519a5df  [Nick van Bokhorst]
+9ecdd918456  Add back volume button control [1/2] this commit adds:  [Nick van Bokhorst]
+47ef498df90  fb: add back all keyboard IME features back (1/2) this commit adds:  [Nick van Bokhorst]
+6e23996df0d  call log limit 500=>5000  [Nick van Bokhorst]
+ac3353eb06d  [1/2] base: Fingerprint authentication vibration  [Nick van Bokhorst]
+a8d111227eb  Allow to suppress notifications sound/vibration if screen is On [1/2]  [Nick van Bokhorst]
+7c78e17a399  DPM: Fix regression from I54376f60ac53451ace22965d331b47cd8c2e614e  [Nick van Bokhorst]
+76a62013b21  RESTRICT AUTOMERGE Do not linkify text with RLO/LRO characters.  [Nick van Bokhorst]
+2c2364453cd  Adding SUPL NI Emergency Extension Time  [Nick van Bokhorst]
+579cb738b24  FRP: save password quality in DPM.resetPassword  [Nick van Bokhorst]
+ab9e4476daf  Set scrollview on the power menu  [Nick van Bokhorst]
+c4ac021a970  Powermenu: Bring back silent mode [1/2] Reconfigured for horizontal layout Icons themed with accent color  [Nick van Bokhorst]
+7e3968011a4  Power button flashlight: allow to skip proximity check per device  [Nick van Bokhorst]
+20d9fa2acdf  Power button flashlight toggle: add proximity sensor check  [Nick van Bokhorst]
+7e2f5355036  Allow doubletap/longpress power to toggle torch [1/2]  [Nick van Bokhorst]
+66ba1b1698d  Flashlight toggle api improvements  [Nick van Bokhorst]
+d904d4e77a1  Add api to toggle flashlight and check if device has flashlight  [Nick van Bokhorst]
+5ab8c8bacf5  Powermenu: Allow emergency dialer button to be themed with accent color  [Nick van Bokhorst]
+fbc38ee3ef0  Emergency dial fix for Marty :D  [Nick van Bokhorst]
+d8ffe742aec  Fix action bar font family on material themes  [Nick van Bokhorst]
+db6ed250d15  UiModeManagerService: Store messaging night state on Settings class  [Nick van Bokhorst]
+c4efc358a38  Themes: Lock day night mode  [Nick van Bokhorst]
+d18334e2569  Themes: Fix animation issue when opening Messaging app  [Nick van Bokhorst]
+1ba1acb903c  Themes: Workaround to fix dark theme on Messaging app  [Nick van Bokhorst]
+0c00183425d  Migrate SystemUI Tuner to WolvesDen  [Nick van Bokhorst]
+d905c191927  base: Add a toggle for Emergency dialing in power menu (1/2)  [Nick van Bokhorst]
+225f82b50b9  BrightnessDialog: dismiss on focus lost  [Nick van Bokhorst]
+f20f8014406  GlobalActions: avoid multiple power dialog animations  [Nick van Bokhorst]
+bb841e5dd3d  VolumeDialog: avoid multiple animations on touch spam  [Nick van Bokhorst]
+253d5d0add9  ActionUtils: Improve ringer modes  [Nick van Bokhorst]
+78d899d7fe3  ActionUtils: Ringer modes  [Nick van Bokhorst]
+25fc1dc144b  ActionUtils: cleanup screen On action code  [Nick van Bokhorst]
+c19f99d0c9a  ActionUtils: Add screen on action  [Nick van Bokhorst]
+bfb21f29e72  base: Add support for the .opus file format  [Nick van Bokhorst]
+cefe97a3bbc  {CRAP} fix for OP ims.apk  [Nick van Bokhorst]
+0191b707f9b  Fix showing empty signal strength for TD-SCDMA  [Nick van Bokhorst]
+9bc5aa8a66a  FontService: Disable logspam  [Nick van Bokhorst]
+ab1fbe8a723  base: FontService: Add a error for non-supported font packages  [Nick van Bokhorst]
+d05a94a1eba  Forward port Screen Security settings (1/2)  [Nick van Bokhorst]
+63e429c5769  DefaultPermissionGrantPolicy: grant Google sounds picker storage perms  [Nick van Bokhorst]
+4f7714659ce  SystemUpdateService: enable service but lock its receivers  [Nick van Bokhorst]
+2257a6d14d5  PackageManager: allow build-time disabling of components  [Nick van Bokhorst]
+79c0c831855  Reload more assets on overlay change  [Nick van Bokhorst]
+4625ba3223b  fonts: Build different fonts.xml if EXCLUDE_SERIF_FONTS is true  [Nick van Bokhorst]
+2090a8dc753  Camera: Force HAL1 for predefined package list.  [Nick van Bokhorst]
+b4b1bbf219b  Informing app idle listeners on enabled state changes.  [Nick van Bokhorst]
+06ca44b806a  Fix for CTS testAllowWhileIdleJobInTempwhitelist  [Nick van Bokhorst]
+d4307e83515  Null locale causing the VTS fail.  [Nick van Bokhorst]
+f658ef3b69c  Add Music QS Tile  [Nick van Bokhorst]
+743fc0bc22f  Extend reboot tile to add power off  [Nick van Bokhorst]
+83764b029fd  RebootTile: Fix gradient message display for reboot to recovery  [Nick van Bokhorst]
+7f1a508c48d  Add Reboot/Recovery QS Tile  [Nick van Bokhorst]
+ec9e951bf98  Status bar clock/date customizations [1/2]  [Nick van Bokhorst]
+697d9e71f30  Revert "Auto switch to a dark analog clock when using black system theme"  [Nick van Bokhorst]
+add18bfd14b  Add back weather qs tile  [Nick van Bokhorst]
+6928eeadb4f  [2/2] SettingsLib: switch style to removed left padding  [Nick van Bokhorst]
+8e7db21c976  [1/2] SettingsLib: allow to remove forced start margin  [Nick van Bokhorst]
+dd79e6fac7b  Weather: Merge UpdateSettings methods and remove weather tile  [Nick van Bokhorst]
+c6f681482d2  fix derps  [Nick van Bokhorst]
+fc45e7e6a12  fix derps  [Nick van Bokhorst]
+6fee08306f1  fix a white line  [Nick van Bokhorst]
+7cf90048abf  base: SystemUI: fix keyguard weather color update  [Nick van Bokhorst]
+75df44cc6ba  base: SystemUI: keyguard weather view - fix initial kick off after boot  [Nick van Bokhorst]
+de185781b10  base: SystemUI: hide keyguard weather when pulsing  [Nick van Bokhorst]
+e26df1f1f47  [1/3] base: SystemUI: keyguard weather view  [Nick van Bokhorst]
+6c23afd1a68  [1/3] base: add back weather parts  [Nick van Bokhorst]
+c38866aa56e  Support for device specific key handlers  [Nick van Bokhorst]
+2529d464a7d  fw/b: Define paths for device specific KeyHandler Libs  [Nick van Bokhorst]
+778133f5b06  r31 merge: cut away tumors  [Nick van Bokhorst]
+6447a41ed62  Merge tag 'android-9.0.0_r31' of https://android.googlesource.com/platform/frameworks/base into HEAD  [Nick van Bokhorst]
+583d6ab4807  Allow devices to configure the blanking delay on displays  [Nick van Bokhorst]
+46151b68c0c  Enable Binder Proxy Tracking by Uid only on eng builds  [Nick van Bokhorst]
+5cd835c4de7  audio: Don't play sound effects if stream is muted  [Nick van Bokhorst]
+a1d76c1c231  InputMethodManager: Fixed memory leak when windowDismissed  [Nick van Bokhorst]
+79028749a23  Refusing to enter PIP mode when activity destroyed  [Nick van Bokhorst]
+3b522998fd3  SystemUI: Fixes context for tiles without longClick  [Nick van Bokhorst]
+c67f625ece9  am: Fix top activity resume with secure keyguard  [Nick van Bokhorst]
+2a6a6110550  Fix intermittent slowness in resolver activity towards end of day  [Nick van Bokhorst]
+f5e7749a804  WindowManager: Remove unused calling for better performance  [Nick van Bokhorst]
+b37baedc965  Fix the behavior of keyguard bouncer in a corner case  [Nick van Bokhorst]
+293c0365f84  Fix disappearing home/recents button  [Nick van Bokhorst]
+aaad00c906f  Disable notification channel warnings by default [1/2]  [Nick van Bokhorst]
+b09ac5f8a41  [DNM into 9.0]Utils: Introduce method to determine countries that use Fahrenheit  [Nick van Bokhorst]
+43dbc36f593  Utils: Add method to determine battery temp  [Nick van Bokhorst]
+b79e30fab2a  import DU ActionUtils.java  [Nick van Bokhorst]
+c327820683a  Full gesture navbar: fix swipe to back glitches  [Nick van Bokhorst]
+   * packages/apps/Settings/
+864b1961cb  AppOpsDetails: Check app permissions safely  [hardwareadictos]
+1593005de8  Settings: Bring back AppOps from oreo and before  [hardwareadictos]
+05ee10aaea  Revert "Settings: Introduce Substratum changes."  [Nick van Bokhorst]
+f5a583896a  batterymeterview: hardcode the strings  [martinusbe]
+   * packages/apps/WolvesDen/
+94f160ee  WolvesDen: Add app ops to system  [hardwareadictos]
    * system/sepolicy/
-17781bf7  Merge pull request #2 from ValidusOs/test  [GitHub]
-2dd7ecb0  Substratum: Pie sepolicy bringup  [alliancesparx]
+9d5aadf8  Revert "Substratum: Pie sepolicy bringup"  [Nick van Bokhorst]
+   * vendor/validus/
+fcc4eac1  ValidusOS v5.0 - New battery meter - New settings design - AppOpps - ETC  [hardwareadictos]
+====================
+     05-01-2019
+====================
+
+
+   * packages/apps/Settings/
+5731fb3500  Settings: Remove google fonts and clean up  [martinusbe]
+ddc07b82f6  some spacees cleanup  [martinusbe]
+ae3ad922b2  increase searchbar elevation  [martinusbe]
+5c8a5f4385  UI : Increase toolbar size and misc fixes  [martinusbe]
+2dec62feb8  Settings UI : Show User Icon in dashboard  [martinusbe]
+452ace85aa  Settings UI : Tint Storage ProgressBar & Redesign Toolbar  [martinusbe]
+5e45eb4a78  Update the timestamp used for time zone filtering  [martinusbe]
+68e7813d7d  Settings: Fix empty summary for VPN and SIM Card  [martinusbe]
+0a82b8d888  Give new life to reset buttons  [martinusbe]
+ed7c4879da  Add back arrow to Desktop backup password  [martinusbe]
+ee84af9ec4  Settings: Add FINE_LOCATION for Bluetooth scans  [martinusbe]
+e87aa2e6f3  Settings: show battery times in summary  [martinusbe]
+cd3bb19632  Dashboard : Quick Redesign  [martinusbe]
+ae649f1742  Settings: Battery : Redesign BatteryMeterView  [hardwareadictos]
+====================
+     04-30-2019
+====================
+
+
