@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Long screenshot
+PRODUCT_PACKAGES += \
+    Longshot
+
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
     libffmpeg_extractor \
